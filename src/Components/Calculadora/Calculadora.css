@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-calculadora {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 800px;
+  border-radius: 20px;
+  background-color: #1c1c1c;
+}
+.container-calculadora .container-display {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-calculadora .container-display .display {
+  width: 450px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 3px solid #CD7F32;
+}
+.container-calculadora .container-botao {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  flex-grow: 1;
+  padding: 30px;
+}
+.container-calculadora .container-botao button {
+  background-color: #CD7F32;
+  color: white;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+}/*# sourceMappingURL=Calculadora.css.map */
